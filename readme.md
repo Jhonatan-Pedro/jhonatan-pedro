@@ -66,7 +66,6 @@
 </div>
 
 
-![Snake animation](https://github.com/Jhonatan-Pedro/Jhonatan-Pedro/blob/output/github-contribution-grid-snake.svg)
-
+<img src="https://raw.githubusercontent.com/gitJhonatan-Pedro/gitrepo/output/snake.svg" alt="Snake animation" />
 
 
