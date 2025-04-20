@@ -2,8 +2,8 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Gera todo dia à meia-noite
-  workflow_dispatch:
+    - cron: "0 0 * * *" # roda todo dia à meia-noite
+  workflow_dispatch: # permite executar manualmente
 
 jobs:
   generate:
@@ -21,3 +21,4 @@ jobs:
           build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
