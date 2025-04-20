@@ -1,32 +1,23 @@
-name: Gerar Animação de Cobra
+name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Executa todos os dias à meia-noite UTC
-  workflow_dispatch: # Permite acionamento manual
+    - cron: "0 0 * * *" # Gera todo dia à meia-noite
+  workflow_dispatch:
 
 jobs:
-  generate-snake:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      # Clona o repositório
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      # Gera o SVG da cobra
-      - name: Gerar SVG da Cobra
-        uses: Platane/snk@v3
+      - uses: Platane/snk@v3
         with:
-          github_user_name: Jhonatan-pedro
+          github_user_name: Jhonatan-Pedro
           outputs: |
-            output/snake.svg
-            output/snake-dark.svg?palette=github-dark
+            ./github-contribution-grid-snake.svg
 
-      # Faz commit e push do SVG gerado
-      - name: Commit e Push
-        run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
-          git add output/snake.svg output/snake-dark.svg
-          git commit -m "Atualiza SVG da animação de cobra"
-          git push
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
