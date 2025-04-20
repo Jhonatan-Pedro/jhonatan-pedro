@@ -66,6 +66,5 @@
 </div>
 
 
-
 <img src="https://raw.githubusercontent.com/Jhonatan-pedro/Jhonatan-pedro/main/output/snake.svg" alt="Snake animation" />
 
