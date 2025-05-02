@@ -17,7 +17,7 @@
 
 
 
-<p align="left">-🎓 Estudante de Análise e Desenvolvimento de Sistemas<br><br>-💼 Jovem aprendiz na área de desenvolvimento de software<br><br>-🛠️ Focado em aprimorar habilidades técnicas e boas práticas de programação<br><br>-📚 Interesso-me por Java, lógica de programação, IoT e IA<br><br>-📈 Comprometido com o desenvolvimento contínuo e a construção de uma base sólida<br><br>-🌍 Em busca de experiências que unam aprendizado técnico e impacto real</p>
+<p align="left">-🎓 Estudante de Análise e Desenvolvimento de Sistemas<br><br>-💼 Jovem aprendiz na área de desenvolvimento de software<br><br>-🛠️ Focado em aprimorar habilidades técnicas e boas práticas de programação<br><br>-📚 Interesso-me por desenvolvimento front-end, lógica de programação, IoT e IA<br><br>-📈 Comprometido com o desenvolvimento contínuo e a construção de uma base sólida<br><br></p>
 
 
 
